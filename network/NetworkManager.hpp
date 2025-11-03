@@ -1,4 +1,8 @@
-#ifdef NETWORKMANAGER_HPP_
-#define NETWORKMANAGER_HPP_
+#pragma once
 
-#endif
+
+class NetworkManager {
+public:
+void begin();
+void handle();
+};
