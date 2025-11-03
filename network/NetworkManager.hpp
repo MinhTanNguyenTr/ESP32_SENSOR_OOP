@@ -1,0 +1,4 @@
+#ifdef NETWORKMANAGER_HPP_
+#define NETWORKMANAGER_HPP_
+
+#endif
