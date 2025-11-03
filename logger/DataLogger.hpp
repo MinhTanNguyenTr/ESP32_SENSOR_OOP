@@ -1,4 +1,9 @@
-#ifndef DATALOGGER_HPP_
-#define DATALOGGER_HPP_
+#pragma once
+#include "SensorManager.h"
 
-#endif
+
+class DataLogger {
+public:
+void begin();
+void logSnapshot(const SensorSnapshot &s);
+};
